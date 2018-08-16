@@ -1,3 +1,12 @@
+"""
+Script to move title box around for different pages during export.
+This specific script was for a series of maps of city quadrants that
+required 4 unique positions, but it could be easily modified to simply
+work with left or right pages (use modulus to find even/odd page numbers),
+or to move inset maps around.
+"""
+
+
 #specify output pdf base name
 outPDF = r"X:\GIS_BASE_MAP\Map Database\manhattan_fire\Maps\Driver Maps\NEW\unlabeled.pdf"
 
