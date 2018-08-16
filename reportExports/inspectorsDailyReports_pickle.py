@@ -99,13 +99,13 @@ with open(logFile,'w') as log:
 		#error handling for reports that won't export properly
 		#log all errors in log file
 		except IOError as e:
-			log.write("Failed on {0}.\t{1}{2}".format((title,"I/O error({0}): {1}".format(e.errno, e.strerror),'\n')))
+			log.write("Failed on {0}.\t{1}\n".format((title,"I/O error({0}): {1}".format(e.errno, e.strerror))))
 		except ValueError as e:
-			log.write("Failed on {0}.\t{1}{2}".format(title,e,'\n'))
+			log.write("Failed on {0}.\t{1}\n".format(title,e))
 		except NameError as e:
-			log.write("Failed on {0}.\t{1}{2}".format(title,e,'\n'))
+			log.write("Failed on {0}.\t{1}\n".format(title,e,))
 		except:
-			log.write("Failed on {0}.\t{1} {2}{3}".format(title,"Unexpected error:", sys.exc_info()[0],'\n'))
+			log.write("Failed on {0}.\t{1} {2}\n".format(title,"Unexpected error:", sys.exc_info()[0]))
 				
 
 	#append list of newly exported reports to list and write new pickle file
