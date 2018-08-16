@@ -1,3 +1,5 @@
+... python
+
 """
 Inspector's Daily Report export script.
 
@@ -68,3 +70,5 @@ for row in inForms:
 		
 #print end time. for testing purposes only, currently disabled.		
 #print "End time: %s."%datetime.datetime.now()
+
+...
