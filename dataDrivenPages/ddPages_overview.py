@@ -1,3 +1,7 @@
+"""
+Script to create polygons from the extents of each page in a data driven page set.
+"""
+
 import arcpy
 import os
 #collect input parameters
