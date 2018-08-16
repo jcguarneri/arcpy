@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This temporary script file is located here:
-C:\Python27\WinPython-32bit-2.7.6.4\settings\.spyder2\.temp.py
+AssetID updater configured for use as ArcGIS Python tool.
 """
 
 import arcpy
