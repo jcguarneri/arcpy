@@ -2,7 +2,8 @@
 Inspector's Daily Report export script.
 
 Goes through all records in daily report feature service, checks
-if the PDF already exists, and exports the report if it isn't there yet.
+if the report for that OBJECTID has already been exported, then exports it.
+Afterwards, the list of completed reports is stored for future reference
 """
 #import modules for arcgis, date/time functionality, file system navigation, and regular expressions
 import arcpy
